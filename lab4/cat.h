@@ -1,3 +1,4 @@
+#include <string>
 #pragma once
 
 class Cat
@@ -8,15 +9,15 @@ private:
 
 public:
 
+    Cat();
     Cat(std::string name);
-
     Cat(std::string name, unsigned int lives);
 
-    const std::string get_name() { return name; }
+    const std::string get_name();
+    const unsigned int get_lives();
 
-    const int get_lives() { return lives; }
-
+    void set_name(std::string name);
+    void set_lives(const unsigned int lives);
 
     ~Cat();
-
 };
