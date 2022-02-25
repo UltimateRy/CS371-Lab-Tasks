@@ -6,11 +6,11 @@ int main(int argc, char* argv[]) {
     int numberOfCats;
     bool missingParam = false;
 
-    //Then it is even because first argument is ./task3
+    //it is even because first argument is ./task3
     if (argc % 2 == 1) {
         numberOfCats = argc / 2;
         std::cout << "Number of cats found : " << numberOfCats << std::endl;
-    //Then it is odd
+    //it is odd
     } else {
         numberOfCats = argc / 2;
         std::cout << "Number of cats found : " << numberOfCats << std::endl;
