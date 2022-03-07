@@ -94,7 +94,6 @@ Triangle::Triangle(double x0, double y0, double x1, double y1, double x2, double
     this->y2 = y2;
 
     //std::cout << "Constructor called for triangle." << std::endl;
-
 }
 
 Triangle::~Triangle() {
